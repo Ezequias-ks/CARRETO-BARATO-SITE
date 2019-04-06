@@ -1,55 +1,54 @@
 <?php
-// CONEXAO
+//SESSAO
+session_start();
+//CONEXAO
 require_once 'conexao.php';
-
 //CLEAR
 function clear($input){
-	GLOBAL $connect;
-	//SQL
-	$var = mysqli_escape_string($connect, $input);
-	//XSS
-	$var = htmlspecialchars($var);
-	return $var;
+   GLOBAL $connect;
+   //SQL
+   $var = mysqli_escape_string($connect, $input);
+   //XSS
+   $var = htmlspecialchars($var);
+   return $var;
 }
-
-//PEGANDO OS DADOS DO FORMULARIO
-if(isset($_POST['btn_enviar'])){
-    
-   //PEGANDO OS DADOS DO INPUT 
-   $nome = clear($_POST['nome']);
-   $email = clear($_POST['email']);
-   $tel = clear($_POST['tel']);
+//VERIFICANDO O CLICK DO BTN/ ESCAPANDO AS STRINGS/ PEGANDO DADOS DO INPUT
+if (isset($_POST['btn_enviar'])){
+   $name = $_POST['nome'];
+   $email = $_POST['email'];
+   $tel = $_POST['tel'];
 
    $erro = 0;
 
    //VALICACÕES
-   if(empty($nome) OR strstr($nome, ' ') ==false){
-      echo "Digite corretamento seu nome";
-      $erro = 1;
+   if(empty($nome) || strstr($nome, ' ') ==false){
+            $_SESSION['mensage'] = "Digite corretamente seu nome";
+            $erro = 1;
+            header('Location: ../index.php');
    }
    if(strlen($email)< 8 || strstr($email, '@') ==false){
-      echo "digite seu email corretamente";
-      $erro = 1;
+            $_SESSION['mensage'] = "digite seu email corretamente";
+            $erro = 1;
+            header('Location: ../index.php');
    }
    if(empty($tel)){
-      echo "digite um numero válido";
-      $erro = 1;
+            $_SESSION['mensage'] = "digite um numero válido";
+            $erro = 1;
+            header('Location: ../index.php');
    }
    if($erro == 0){
-      echo "Todos os campos foi digitado corretamente";
-   }else{
-
-   //INSERINDO OS DADOS AO BANCO
-   $insert_tab = "INSERT INTO clientes (nome, email, tel) VALUES ('$nome', '$email', '$tel')";
-   mysqli_query($connect, $insert_tab);
-
-   if(mysqli_insert_id($connect)){
-	echo true;
-   }else{
-	   echo false;
-    }
+            $_SESSION['mensage'] = "Todos os campos foi digitado corretamente";
+            header('Location: ../index.php');
    }
+
+   //INSERINDO AO BANCO DE DADOS, AS INFORMAÕES DO CLIENTE VINDO DO FORMULARIO
+   $sql = "INSERT INTO clientes (nome, email, tel) VALUES ('$name', '$email', '$tel')";
+   if(mysqli_query($connect, $sql)){ 
+            $_SESSION['mensage'] = "Cadastro com Sucesso!";
+            header('Location: ../index.php');
+         }else{
+            $_SESSION['mensage'] = "ERROR ao cadastrar!";
+            header('Location: ../index.php');
+         }
+
 }
-
-    
-

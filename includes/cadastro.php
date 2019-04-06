@@ -1,4 +1,4 @@
-<section id="cadastro" class="section">
+<section id="cadastro" class="cadastro">
     <div class="card-body">
         <h1>Cadastre seus dados aqui, e vem trabalhar conosco</h1>
         <div class="card-text">

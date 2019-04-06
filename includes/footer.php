@@ -58,6 +58,5 @@
     <script src="js/calc.js"></script>
 
     <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
-    
 </body>
 </html>

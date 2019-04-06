@@ -1,4 +1,4 @@
-<section  id="calc" class="calcRota section form">
+<section  id="calc" class="calcRota form">
     <div class="container-fluid ">	
         <div class="card">
             <div class="card-header">
@@ -23,14 +23,8 @@
                     <!-- RESULTADO DA CONSULTA -->
                     <ul class="list-group" id="calRersult"></ul>
 
-                    <!-- MENSAGEM DO FORMULARIO -->
-                    <?php
-                        if(isset($_SESSION['mensage'])){
-                            echo $_SESSION['mensage'];
-                            unset($_SESSION['mensage']);
-                        }
-                    ?>
-                    <form action="./action/get_dados_teste.php" method="POST">
+                   
+                    <form action="./action/get_dados.php" method="POST">
                         <p><span class="bolding">2</span> - Após calcular a sua distância, preenche abaixo os dados e clique em <span class="border-btt">ENVIAR PEDIDO</span></p>
                         <div class="form-group">
                             <label for="nome">Nome</label>

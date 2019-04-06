@@ -1,9 +1,9 @@
-   <?php include_once './includes/header.php'; ?>
+<?php include_once './includes/header.php'; ?>
    <section class="header">              
         <!-- HEADER -->
         <header id="header">
             <div class="header-content clearfix">
-                <a class="logo" href="#"><img src="images/logo-carreto-barato-white.png" alt="logo"></a>
+                <a class="logo" href="#"><img src="images/Icons/logoCarretoBarato.svg" alt="logo"></a>
                 <nav class="navigation" role="navigation">
                     <ul class="primary-nav">
                         <li><a href="#about">Sobre</a></li>
@@ -18,30 +18,22 @@
             </div>
         </header>
 
-        <!-- BANNER -->
-        <div id="indicador" class="carousel slide" data-ride="carousel">
+      <!-- BANNER -->
+      <div id="indicador" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#indicador" data-slide-to="0" class="active"></li>
                 <li data-target="#indicador" data-slide-to="1"></li>
-                <li data-target="#indicador" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="bannerImage"></div>
+                    <div class="bannerImage1"></div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>titulo</h5>
-                        <p>Lorem ipsum dolor sit.</p>
+                        <h5>Seu Carreto Inteligênte</h5>
+                        <p>Rápido, Barato e Seguro</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="bannerImage"></div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>titulo</h5>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bannerImage"></div>
+                    <div class="bannerImage2"></div>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>titulo</h5>
                         <p>Lorem ipsum dolor sit.</p>
@@ -321,33 +313,20 @@
                         <li>
                             <div class="col-md-6">
                                 <div class="avatar">
-                                    <img src="" alt="" class="img-responsive">
+                                    <img src="images/Icons/logoAvs.svg" alt="" class="img-responsive">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <blockquote>
-                                    <p>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui."</p>
-                                    <cite class="author">Lorem ipsum dolor sit amet.</cite>
+                                    <p>"Satisfação total, Mudanças elaborada com sucesso!."</p>
+                                    <cite class="author">Empresa AVS Group</cite>
                                 </blockquote>
                             </div>
                         </li>
                         <li>
                             <div class="col-md-6">
                                 <div class="avatar">
-                                    <img src="" alt="" class="img-responsive">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <blockquote>
-                                    <p>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui."</p>
-                                    <cite class="author">Lorem ipsum dolor sit amet.</cite>
-                                </blockquote>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="col-md-6">
-                                <div class="avatar">
-                                    <img src="" alt="" class="img-responsive">
+                                    <img src="images/Testomonials/Logotipo-SVG-Group-Vetor (2).svg" alt="" class="img-responsive">
                                 </div>
                             </div>
                             <div class="col-md-6">
