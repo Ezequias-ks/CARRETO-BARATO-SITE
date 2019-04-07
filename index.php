@@ -9,7 +9,7 @@
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#service">Serviços</a></li>
                         <li><a href="#logistics">Logística</a></li>
-                        <li><a href="#calc">Calcule Rota</a></li>
+                        <li><a href="#calc">Sua Rota</a></li>
                         <li><a href="#cadastro">Cadastro</a></li>
                         <li><a href="#contact">Contato</a></li>
                     </ul>
@@ -35,8 +35,8 @@
                 <div class="carousel-item">
                     <div class="bannerImage2"></div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>titulo</h5>
-                        <p>Lorem ipsum dolor sit.</p>
+                        <h5>ligou, chegou !</h5>
+                        <p>A carreto sempre a disposição.</p>
                     </div>
                 </div>
             </div>
@@ -326,12 +326,12 @@
                         <li>
                             <div class="col-md-6">
                                 <div class="avatar">
-                                    <img src="images/Testomonials/Logotipo-SVG-Group-Vetor (2).svg" alt="" class="img-responsive">
+                                    <img src="images/Icons/logoAvs.svg" alt="" class="img-responsive">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <blockquote>
-                                    <p>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui."</p>
+                                    <p>"Carreto efuado dentro do prazo estabelecido"</p>
                                     <cite class="author">Lorem ipsum dolor sit amet.</cite>
                                 </blockquote>
                             </div>

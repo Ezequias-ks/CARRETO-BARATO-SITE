@@ -19,7 +19,9 @@
                             <div class="content-box">
                                 <div class="box">
                                     <span><i class="fab fa-whatsapp"></i></span>
+                                    <span><a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511972949774">(011) 97294-9774</a></span><br>
                                     <span><a href="tel:+011 4214-7938">(011) 4214-7938</a></span>
+
                                 </div>
                                 <div class="box">
                                     <span><i class="far fa-envelope"></i></span>
@@ -29,16 +31,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-col col-md-4">
-                    <h5>trabalhamos com</h5>
-                    <div class="cards">
-                        <span><i class="fab fa-cc-mastercard"></i></span>
-                        <span><i class="fab fa-cc-visa"></i></span>
-                        <span><i class="fab fa-cc-amex"></i></span>
-                        <span><i class="fab fa-cc-diners-club"></i></span>
+                <div class="cards-box">
+                    <div class="footer-col col-md-4">
+                        <h5>trabalhamos com</h5>
+                        <div class="cards">
+                            <span><i class="fab fa-cc-mastercard"></i></span>
+                            <span><i class="fab fa-cc-visa"></i></span>
+                            <span><i class="fab fa-cc-amex"></i></span>
+                            <span><i class="fab fa-cc-diners-club"></i></span>
+                        </div>
                     </div>
-                </div>
-
+                </div>  
                 <div class="footer-bottom">
                     <div class="col-md-12">
                         <p>Copyright © 2019. Carreto Barato <br>todos direitos reservados<br>Desenvolvido <i class="fa fa-circle"></i> por <a href="http://agenciaksdesign.com/" target="_blank">ks design</a></p>
