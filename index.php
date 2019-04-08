@@ -1,6 +1,5 @@
 <?php 
-// MENSAGEM
-include_once ('includes/mensage.php');
+session_start();
 // CONEXÃO
 require_once ('action/conexao.php');
 // HEADER 

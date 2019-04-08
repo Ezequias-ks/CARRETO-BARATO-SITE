@@ -2,7 +2,7 @@
     <div class="container-fluid ">	
         <div class="card">
             <div class="card-header">
-                <h1>Calcule seu frete aqui..</h1>
+                <h1 id="form">Calcule seu frete aqui..</h1>
                 <p><span class="bolding">1</span> - Calcule o seu frete, inserindo o a Origem e Destino, e clique em <span class="border-btt">CALCULAR</span>.</p>
             </div>
             <div class="card-body">
@@ -22,8 +22,10 @@
 
                     <!-- RESULTADO DA CONSULTA -->
                     <ul class="list-group" id="calRersult"></ul>
-
-                   
+                    <!--MENSAGENS -->
+                    <?php
+                        include_once ('includes/mensage.php');
+                    ?>
                     <form action="./action/get_dados.php" method="POST">
                         <p><span class="bolding">2</span> - Após calcular a sua distância, preenche abaixo os dados e clique em <span class="border-btt">ENVIAR PEDIDO</span></p>
                         <div class="form-group">
