@@ -53,7 +53,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-
+    
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
