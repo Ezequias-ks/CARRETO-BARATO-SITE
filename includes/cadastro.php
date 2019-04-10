@@ -2,7 +2,7 @@
     <div class="card-body">
         <h1>Cadastre seus dados aqui, e vem trabalhar conosco</h1>
         <div class="card-text">
-            <form class="form-cadastro" action="./action/get_cadastro.php" method="POST">
+            <form class="form-cadastro" id="cadastrar" action="./action/get_cadastro.php" method="POST">
 
                 <!-- DADOS PESSOAIS -->
                 <div class="grupoA form-group">
@@ -113,4 +113,5 @@
             </form>
         </div> 
     </div>
+    <?php include_once ('msg-cadastrar.php'); ?>
 </section>

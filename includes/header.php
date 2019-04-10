@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
     <title>Carreto Barato</title>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192" href="">

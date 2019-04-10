@@ -360,10 +360,8 @@ $BANNER
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(180deg, rgba(41, 44, 71, .4), rgba(233, 86, 56, .4));
 }
 .bannerImage1:hover:before{
-  background: linear-gradient(180deg, rgba(41, 44, 71, .4), rgba(41, 44, 71, .9));
   
 }
 .carousel-inner .carousel-caption h5{
@@ -382,6 +380,9 @@ $BANNER
   transform: translate(-50%, -50%);
   font-size: 1.3em;
 }
+/* ARROW */
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
 
 /* INDICADORES */
 .carousel-indicators > li{

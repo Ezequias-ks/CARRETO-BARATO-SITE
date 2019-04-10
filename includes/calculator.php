@@ -22,10 +22,10 @@
 
                     <!-- RESULTADO DA CONSULTA -->
                     <ul class="list-group" id="calRersult"></ul>
+                    
                     <!--MENSAGENS -->
-                    <?php
-                        include_once ('includes/mensage.php');
-                    ?>
+                    <?php include_once ('mensage.php'); ?>
+                    
                     <form action="./action/get_dados.php" method="POST">
                         <p><span class="bolding">2</span> - Após calcular a sua distância, preenche abaixo os dados e clique em <span class="border-btt">ENVIAR PEDIDO</span></p>
                         <div class="form-group">

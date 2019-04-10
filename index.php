@@ -5,6 +5,7 @@ require_once ('action/conexao.php');
 // HEADER 
 include_once ('includes/header.php'); 
 ?>
+
 <div class="position-relative">
     <div class="position-absolute" id="toast-place"></div>
 </div>
@@ -354,11 +355,11 @@ include_once ('includes/header.php');
   
 <?php 
 // CALCULATOR E FORM
-include_once './includes/calculator.php'; 
+include_once ('./includes/calculator.php'); 
 
 // TRABALHE CONNOSCO
-include_once './includes/cadastro.php';
+include_once ('./includes/cadastro.php');
 
 // FOOTER 
-include_once './includes/footer.php'; 
+include_once ('./includes/footer.php'); 
 ?>

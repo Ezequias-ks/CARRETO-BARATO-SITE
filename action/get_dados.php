@@ -1,7 +1,7 @@
 <?php
-//CONEXAO
+// CONEXAO
 require_once ('conexao.php');
-//INICIANDO A SESSÃO
+// INICIANDO A SESSÃO
 session_start();
 
 if(isset($_POST['btn_enviar'])){
