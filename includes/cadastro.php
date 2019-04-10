@@ -83,15 +83,15 @@
                     <h4 class="text-left">Seu Veículo :</h4>
                     <div class="form-group col-md-6">
                         <label for="marca">Marca</label>
-                        <input type="text" id="marca" name="marca" class="form-control" placeholder="">
+                        <input type="text" id="marca" name="marca_veiculo" class="form-control" placeholder="">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="modelo">Modelo :</label>
-                        <input type="text" id="modelo" name="modelo" class="form-control" placeholder="">
+                        <input type="text" id="modelo" name="modelo_veiculo" class="form-control" placeholder="">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="placa">PLaca :</label>
-                        <input type="text" id="placa" name="placa" class="form-control" placeholder="">
+                        <input type="text" id="placa" name="placa_veiculo" class="form-control" placeholder="">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="ano_fabrica">Ano de fabricação :</label>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="form-group col-md-6">
                         <label for="capacidade">Capacidade de Peso :</label>
-                        <input type="text" id="capacidade" name="capacidade" class="form-control" placeholder="">
+                        <input type="text" id="capacidade" name="capacidade_peso" class="form-control" placeholder="">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="">Tipo de Báu :</label>

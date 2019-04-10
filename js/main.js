@@ -1,13 +1,12 @@
-
 $(document).ready(function() {
 	// Header Scroll
 	$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 120) {
-			$('#header').addClass('fixed');
+			$('#header, #_link').addClass('fixed');
 		} else {
-			$('#header').removeClass('fixed');
+			$('#header, #_link').removeClass('fixed');
 		}
 	});
 

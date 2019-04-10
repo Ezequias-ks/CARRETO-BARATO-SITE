@@ -3,9 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
+<<<<<<< HEAD
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+=======
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+>>>>>>> 9689a53540e752912586a7edcfca8412db202de0
 
     <title>Carreto Barato</title>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
