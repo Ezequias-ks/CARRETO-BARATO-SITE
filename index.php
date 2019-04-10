@@ -12,15 +12,15 @@ include_once ('includes/header.php');
     <!-- NAV -->
     <header id="header">
         <div class="header-content clearfix">
-            <a class="logo" href="#"><img src="images/Icons/logoCarretoBarato.svg" alt="logo"></a>
+            <a class="logo" href="#"><img src="images/Icons/logoCarretoBaratoColor.svg" alt="logo"></a>
             <nav class="navigation" role="navigation">
                 <ul class="primary-nav">
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#service">Serviços</a></li>
-                    <li><a href="#logistics">Logística</a></li>
-                    <li><a href="#calc">Sua Rota</a></li>
-                    <li><a href="#cadastro">Cadastro</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a id="_link" href="#about">Sobre</a></li>
+                    <li><a id="_link" href="#service">Serviços</a></li>
+                    <li><a id="_link" href="#logistics">Logística</a></li>
+                    <li><a id="_link" href="#calc">Sua Rota</a></li>
+                    <li><a id="_link" href="#cadastro">Cadastro</a></li>
+                    <li><a id="_link" href="#contact">Contato</a></li>
                 </ul>
             </nav>
             <a href="#" class="nav-toggle">Menu<span></span></a>
