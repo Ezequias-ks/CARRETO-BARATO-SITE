@@ -267,7 +267,7 @@ $HEADER
       transition-duration: 0s; 
     }
     .nav-toggle span {
-      background-color: #fff;
+      background-color: #cd573c;
       bottom: auto;
       display: inline-block;
       height: 3px;
@@ -282,7 +282,7 @@ $HEADER
       transform: translateX(-50%) translateY(-50%); 
     }
     .nav-toggle span:before, .nav-toggle span:after {
-      background-color: #fff;
+      background-color:  #232d59;
       content: "";
       height: 100%;
       position: absolute;
