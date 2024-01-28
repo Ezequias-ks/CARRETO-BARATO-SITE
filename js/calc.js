@@ -20,7 +20,7 @@ function getDistanceValue() {
           avoidTolls: false
      },function(response, status) {
           if (status == "OK") {
-               var pricePerKM = 3.8; //Valor Km
+               var pricePerKM = 3.8; //Valor Km ok
           
                //Conversão de Metro para Quilômetro
                var distance = response.rows[0].elements[0].distance.value;
